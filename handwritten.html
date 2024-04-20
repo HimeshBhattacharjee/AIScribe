@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="handwritten.css"/>
+    
+    
+</head>
+<body>
+    <div class="header">
+    <h1>AIScribe</h1>
+    <h5>Handwritten Digit And Character Recognition</h5>
+    </div>
+    <div class="cover-image">
+        <img src="https://www.estahome.co.uk/media/catalog/product/cache/5e5c7052364fd1ccad23e2c1ad00ae3c/1/5/159306_2.jpg" alt="image"/>
+    </div>
+    <h1>Handwritten Digit and Character Recognition</h1>
+    <h3>Whiteboard</h3>
+  <canvas id="canvas" width="450" height="280"></canvas>
+  <div>
+    <button onclick="clearCanvas()">Clear</button>
+    <button onclick="predictDigit()">Predict</button>
+    <!-- <input type="file" id="fileInput" accept="image/*">
+    <button onclick="uploadImage()">Upload Image</button> -->
+  </div>
+  <div id="prediction"></div>
+
+   <script src="whiteboard.js"></script>
+    
+   
+   <div class="drop-box">
+   
+    <img src="https://t3.ftcdn.net/jpg/01/09/40/34/360_F_109403459_21P6BMR1zll4pPkQkotfeU4dj0Osm7hf.jpg">
+<input type="file" id="fileInput" accept=".jpg,.jpeg,.png">
+<button onclick="browseFile()">Browse</button>
+<p id="selectedFile"></p>
+</div>
+<script src="script.js"></script>
+      
+       
+       
+</body>
+
+    
+
+</html>
